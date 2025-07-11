@@ -1,4 +1,43 @@
-# FolderAura - Desktop Folder Customization Application
+# FolderAura
+
+FolderAura is a powerful desktop application that allows you to customize your Windows folders with modern visual effects and custom icons.
+
+## Features
+
+• **Custom Folder Icons** - PNG, ICO, SVG support
+• **Modern Windows 11 Effects** - Acrylic, blur, and transparency effects  
+• **Easy Installation** - One-click install and uninstall
+• **Turkish & English** - Full language support
+• **Safe & Secure** - Only visual modifications
+
+## Quick Start
+
+1. Download from [Releases](https://github.com/PartineS/FolderAura/releases)
+2. Run `install.cmd` **as Administrator**
+3. Launch FolderAura from Start Menu
+
+## Usage
+
+1. Select folder to customize
+2. Choose icon (PNG, ICO, SVG)
+3. Apply effects and transparency
+4. Click "Apply"
+
+## System Requirements
+
+- Windows 10/11 (64-bit)
+- .NET 8.0 Runtime
+- Administrator privileges
+
+## Troubleshooting
+
+**Folder icon not showing**: Press F5 to refresh
+**Program won't start**: Run as administrator
+**Installation error**: Add exception to Windows Defender
+
+---
+
+© 2025 FolderAura
 
 ## 📂 Overview
 FolderAura is an application that allows you to change the appearance of folders on your Windows desktop. With this program you can:

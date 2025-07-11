@@ -1,33 +1,43 @@
-# FolderAura - Masaüstü Klasör Özelleştirme Uygulaması
+# FolderAura
 
-## 📂 Genel Bakış
-FolderAura, Windows masaüstünüzdeki klasörlerin görünümünü değiştirmenizi sağlayan bir uygulamadır. Bu program ile:
-- Klasörlere özel simgeler ekleyebilir
-- Klasör pencerelerine modern Windows 11 efektleri (bulanıklık, şeffaflık) uygulayabilir
-- Klasörlere renk etiketleri ekleyebilirsiniz
+FolderAura, Windows klasörlerinizi modern görsel efektler ve özel ikonlarla özelleştirmenizi sağlayan güçlü bir masaüstü uygulamasıdır.
 
-**ÖNEMLİ**: Bu uygulama sadece görsel değişiklikler yapar, klasör içeriğinize dokunmaz.
+## Özellikler
 
-## ✨ Neler Yapabilir?
-- **Klasör Simgesi Değiştirme**: Herhangi bir klasörün simgesini istediğiniz resimle değiştirebilirsiniz
-- **Modern Efektler**: Klasör pencerelerine bulanıklık, şeffaflık efektleri ekleyebilirsiniz
-- **Renk Sistemi**: Klasörlere renk kodları atayabilirsiniz (kırmızı=önemli, yeşil=tamamlandı vb.)
-- **Ayar Kaydetme**: Yaptığınız değişiklikler otomatik kaydedilir
-- **Geri Alma**: İstediğiniz zaman eski haline döndürebilirsiniz
+• **Özel Klasör İkonları** - PNG, ICO, SVG desteği
+• **Modern Windows 11 Efektleri** - Acrylic, blur ve şeffaflık efektleri
+• **Kolay Kurulum** - Tek tıkla kurulum ve kaldırma
+• **Türkçe & İngilizce** - Tam dil desteği
+• **Güvenli** - Sadece görsel değişiklikler
 
-## 🔧 Sistem Gereksinimleri
-- **Windows 10** (sürüm 1809 veya üstü) ya da **Windows 11**
-- **.NET 8.0 Runtime** (yoksa otomatik yüklenecek)
-- **En az 1GB boş disk alanı**
-- **Yönetici hakları** (klasör değişiklikleri için gerekli)
+## Hızlı Başlangıç
 
-## 📥 KURULUM - ADIM ADIM
+1. [Releases](https://github.com/PartineS/FolderAura/releases) sayfasından indirin
+2. `install.cmd` dosyasını **Yönetici olarak çalıştırın**
+3. Başla Menüsünden FolderAura'yı açın
 
-### Yöntem 1: Otomatik Kurulum (ÖNERİLEN)
+## Kullanım
 
-1. **Dosyaları indirin**: `FolderAura` klasörünü masaüstünüze kopyalayın
-2. **Kurulum dosyasını bulun**: `install.cmd` dosyasını bulun
-3. **Yönetici olarak çalıştırın**:
+1. Özelleştirmek istediğiniz klasörü seçin
+2. İkon seçin (PNG, ICO, SVG)
+3. Efektleri ve şeffaflığı ayarlayın
+4. "Uygula" butonuna tıklayın
+
+## Sistem Gereksinimleri
+
+- Windows 10/11 (64-bit)
+- .NET 8.0 Runtime
+- Yönetici yetkileri
+
+## Sorun Giderme
+
+**Klasör ikonu görünmüyor**: F5 ile yenileyin
+**Program açılmıyor**: Yönetici yetkisiyle çalıştırın
+**Kurulum hatası**: Windows Defender'dan istisna ekleyin
+
+---
+
+© 2025 FolderAura
    - `install.cmd` dosyasına **SAĞ TIKLAYIN**
    - **"Yönetici olarak çalıştır"** seçeneğini seçin
    - Windows UAC uyarısında **"Evet"** deyin

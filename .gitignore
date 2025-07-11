@@ -1,8 +1,6 @@
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
 x64/
 x86/
 [Aa][Rr][Mm]/
@@ -13,49 +11,16 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
-# Visual Studio 2015/2017 cache/options directory
+# Visual Studio
 .vs/
-
-# User-specific files
-*.rsuser
-*.suo
 *.user
+*.suo
 *.userosscache
 *.sln.docstates
-
-# Files built by Visual Studio
-*_i.c
-*_p.c
-*_h.h
-*.ilk
-*.meta
-*.obj
-*.iobj
-*.pch
-*.pdb
-*.ipdb
-*.pgc
-*.pgd
-*.rsp
-*.sbr
-*.tlb
-*.tli
-*.tlh
-*.tmp
-*.tmp_proj
-*_wpftmp.csproj
-*.log
-*.vspscc
-*.vssscc
-.builds
-*.pidb
-*.svclog
-*.scc
 
 # NuGet Packages
 *.nupkg
 **/[Pp]ackages/*
-!**/[Pp]ackages/build/
 *.nuget.props
 *.nuget.targets
 
@@ -64,61 +29,28 @@ project.lock.json
 project.fragment.lock.json
 artifacts/
 
-# StyleCop
-StyleCopReport.xml
-
-# Files built by Visual Studio
-*_i.c
-*_p.c
-*_h.h
-*.ilk
-*.meta
+# Build files
 *.obj
-*.pch
 *.pdb
-*.pgc
-*.pgd
-*.rsp
-*.sbr
-*.tlb
-*.tli
-*.tlh
-*.tmp
-*.tmp_proj
+*.dll
+*.exe
 *.log
-*.vspscc
-*.vssscc
-.builds
-*.pidb
-*.svclog
-*.scc
 
-# Windows image file caches
+# Temporary files
+*.tmp
+*.bak
+
+# Windows files
 Thumbs.db
-ehthumbs.db
-
-# Folder config file
 Desktop.ini
-
-# Recycle Bin used on file shares
 $RECYCLE.BIN/
 
-# Mac desktop service store files
-.DS_Store
-
-# JetBrains Rider
+# JetBrains
 .idea/
 *.sln.iml
 
-# CodeRush personal settings
-.cr/personal
-
-# Python Tools for Visual Studio (PTVS)
-__pycache__/
-*.pyc
-
-# Backup files
-*.bak
-
-# Keep release folder for distribution
+# Keep release folder clean
 !release/
+release/*.deps.json
+release/*.pdb
+release/*.runtimeconfig.json
