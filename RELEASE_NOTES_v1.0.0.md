@@ -43,9 +43,11 @@ Welcome to **FolderAura v1.0.0**, the first stable release of our Windows deskto
 
 #### Download Package Contents
 ```
-FolderAura-v1.0.0-Release.zip (8.2MB)
+FolderAura-v1.0.0-Final.zip (2.5MB)
 ├── FolderAura.exe         # Main application (8MB)
 ├── install.cmd            # Automatic installer script
+├── uninstall.cmd          # Uninstaller script
+├── README.md              # Quick start guide
 ├── README_TR.md           # Turkish documentation
 └── README_EN.md           # English documentation
 ```
